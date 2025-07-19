@@ -11,6 +11,7 @@
     --Gold-500: hsl(31, 77%, 52%);
     --Cyan-800: hsl(184, 100%, 22%);
     --Green-950: hsl(179, 100%, 13%);
+    --white: white;
 
     --paragraphy_color: hsla(0, 0%, 100%, 0.75);
     --bg_tittle_button_color: hsl(0, 0%, 95%);
@@ -106,19 +107,19 @@ main{
 #sedans a:hover{
     background-color: rgba(255, 255, 255, 0);
     color: var(--bg_tittle_button_color);
-    border: 2px solid var(--bg_tittle_button_color);
+    outline: 2px solid var(--white);
     }
 
 #suvs a:hover{
     background-color: rgba(255, 255, 255, 0);
     color: var(--bg_tittle_button_color);
-    border: 2px solid var(--bg_tittle_button_color);
+    outline: 2px solid var(--white);
 }
 
 #luxury a:hover{
     background-color: rgba(255, 255, 255, 0);
     color: var(--bg_tittle_button_color);
-    border: 2px solid var(--bg_tittle_button_color);
+    outline: 2px solid var(--white);
 }
 
 .attribution { 
