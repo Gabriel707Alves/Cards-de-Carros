@@ -102,90 +102,62 @@ main{
     color: var(--Green-950);
 }
 
+/* Hover dos Botões */
+#sedans a:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--bg_tittle_button_color);
+    border: 2px solid var(--bg_tittle_button_color);
+    }
+
+#suvs a:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--bg_tittle_button_color);
+    border: 2px solid var(--bg_tittle_button_color);
+}
+
+#luxury a:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--bg_tittle_button_color);
+    border: 2px solid var(--bg_tittle_button_color);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
 
 
 
 /* Versão de PC */
-@media (min_width: 1440px){
+@media (min-width: 1440px){
     body{
     background-color: var(--bg_tittle_button_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
-main{
-    margin: 30px 25px;
+    main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
 }
+    #sedans {
+        border-radius: 10px 0 0 10px;
+    }
 
-.font_titulo{
-    font-family: var(--font_tittle);
-    margin: 20px 0px;
-    color: var(--bg_tittle_button_color);
-    font-size: 2rem;
-}
-
-.paragrafo{
-    color: var(--paragraphy_color);
-}
+    #luxury {
+        border-radius: 0 10px 10px 0;
+    }
 
 
 
-/* Sessão de Sedans */
-#sedans{
-    background-color: var(--Gold-500);
-    padding: 45px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-}
-
-#sedans > a{
-    display: block;
-    background-color: var(--bg_tittle_button_color);
-    border: none;
-    margin: 40px 0px 0px 0px;
-    padding: 10px 25px;
-    border-radius: 50px;
-    width: 70%;
-    text-align: center;
-    color: var(--Gold-500);
-}
-
-
-
-/* Sessão de SUVS */
-#suvs{
-    background-color: var(--Cyan-800);
-    padding: 45px;
-}
-
-#suvs > a{
-    display: block;
-    background-color: var(--bg_tittle_button_color);
-    border: none;
-    margin: 40px 0px 0px 0px;
-    padding: 10px 25px;
-    border-radius: 50px;
-    width: 70%;
-    text-align: center;
-    color: var(--Cyan-800);
-}
-
-
-
-/* Sessão de carros de LUXO */
-#luxury{
-    background-color: var(--Green-950);
-    padding: 45px;
-}
-
-#luxury > a{
-    display: block;
-    background-color: var(--bg_tittle_button_color);
-    border: none;
-    margin: 40px 0px 0px 0px;
-    padding: 10px 25px;
-    border-radius: 50px;
-    width: 70%;
-    text-align: center;
-    color: var(--Green-950);
-}
+    
 }
