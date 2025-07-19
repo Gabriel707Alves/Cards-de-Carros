@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font_paragraphy);
+}
+
+:root{
+    --Gold-500: hsl(31, 77%, 52%);
+    --Cyan-800: hsl(184, 100%, 22%);
+    --Green-950: hsl(179, 100%, 13%);
+
+    --paragraphy_color: hsla(0, 0%, 100%, 0.75);
+    --bg_tittle_button_color: hsl(0, 0%, 95%);
+
+    --font_tittle: "Big Shoulders", sans-serif;
+    --font_paragraphy: "Lexend Deca", sans-serif;
+}
