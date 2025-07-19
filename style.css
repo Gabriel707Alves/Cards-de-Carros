@@ -3,6 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: var(--font_paragraphy);
+    line-height: 1.8;
+    text-decoration: none;
 }
 
 :root{
@@ -13,6 +15,44 @@
     --paragraphy_color: hsla(0, 0%, 100%, 0.75);
     --bg_tittle_button_color: hsl(0, 0%, 95%);
 
-    --font_tittle: "Big Shoulders", sans-serif;
     --font_paragraphy: "Lexend Deca", sans-serif;
+    --font_tittle: "Big Shoulders", sans-serif;
+}
+
+main{
+    margin: 30px 25px;
+}
+
+.font_titulo{
+    font-family: var(--font_tittle);
+    margin: 20px 0px;
+    color: var(--bg_tittle_button_color);
+    font-size: 2rem;
+}
+
+.paragrafo{
+    color: var(--paragraphy_color);
+}
+
+
+
+/* Sessão de Sedans */
+#sedans{
+    background-color: var(--Gold-500);
+    padding: 45px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#sedans > a{
+    display: block;
+    background-color: var(--bg_tittle_button_color);
+    border: none;
+    margin: 40px 0px 0px 0px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    width: 70%;
+    text-align: center;
+    color: var(--Gold-500);
 }
