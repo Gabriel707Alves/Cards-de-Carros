@@ -78,3 +78,21 @@ main{
 }
 
 
+
+/* Sessão de carros de LUXO */
+#luxury{
+    background-color: var(--Green-950);
+    padding: 45px;
+}
+
+#luxury > a{
+    display: block;
+    background-color: var(--bg_tittle_button_color);
+    border: none;
+    margin: 40px 0px 0px 0px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    width: 70%;
+    text-align: center;
+    color: var(--Green-950);
+}
