@@ -19,6 +19,98 @@
     --font_tittle: "Big Shoulders", sans-serif;
 }
 
+body{
+    background-color: var(--bg_tittle_button_color);
+}
+
+main{
+    margin: 30px 25px;
+}
+
+.font_titulo{
+    font-family: var(--font_tittle);
+    margin: 20px 0px;
+    color: var(--bg_tittle_button_color);
+    font-size: 2rem;
+}
+
+.paragrafo{
+    color: var(--paragraphy_color);
+    Font-size: 15px;
+}
+
+
+
+/* Sessão de Sedans */
+#sedans{
+    background-color: var(--Gold-500);
+    padding: 45px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#sedans > a{
+    display: block;
+    background-color: var(--bg_tittle_button_color);
+    border: none;
+    margin: 40px 0px 0px 0px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    width: 70%;
+    text-align: center;
+    color: var(--Gold-500);
+}
+
+
+
+/* Sessão de SUVS */
+#suvs{
+    background-color: var(--Cyan-800);
+    padding: 45px;
+}
+
+#suvs > a{
+    display: block;
+    background-color: var(--bg_tittle_button_color);
+    border: none;
+    margin: 40px 0px 0px 0px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    width: 70%;
+    text-align: center;
+    color: var(--Cyan-800);
+}
+
+
+
+/* Sessão de carros de LUXO */
+#luxury{
+    background-color: var(--Green-950);
+    padding: 45px;
+}
+
+#luxury > a{
+    display: block;
+    background-color: var(--bg_tittle_button_color);
+    border: none;
+    margin: 40px 0px 0px 0px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    width: 70%;
+    text-align: center;
+    color: var(--Green-950);
+}
+
+
+
+
+/* Versão de PC */
+@media (min_width: 1440px){
+    body{
+    background-color: var(--bg_tittle_button_color);
+}
+
 main{
     margin: 30px 25px;
 }
@@ -95,4 +187,5 @@ main{
     width: 70%;
     text-align: center;
     color: var(--Green-950);
+}
 }
